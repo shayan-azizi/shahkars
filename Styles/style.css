@@ -1,0 +1,135 @@
+/* Fonts */
+
+/* Lalezar  */
+@import url('https://v1.fontapi.ir/css/Lalezar');
+/* Lalezar */
+
+/* Vazir */
+@import url('https://v1.fontapi.ir/css/Vazir');
+/* Vazir */
+
+/* Sahel */
+@import url('https://v1.fontapi.ir/css/Sahel');
+/* Sahel */
+
+/* Fonts */
+
+* {
+    font-family: Vazir;
+    direction:  rtl;
+    text-decoration: none;
+    
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 10px;
+}
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16.5px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #0314a8;
+    color: white;
+}
+
+.banner {
+    border-radius: 20px;
+    background:url(../Images/code.jpg) ;
+    height: 850px;
+    background-size: cover;
+    background-position: center;  
+    display: grid;
+    place-items: center;
+}
+
+.banner .content {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 400px;
+
+}
+
+.banner h3 {
+    color: rgb(49, 49, 49);
+    font-size: 25px;
+    font-family: Sahel;
+    margin-bottom: 0;
+}
+
+.banner .content .btn {
+    display: inline-block;
+    background: black;
+    color:rgb(255, 255, 255);
+    border-radius: .5rem;
+    padding:.5rem 3rem;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.banner .content .btn:hover {
+    background-color: #0314a8;
+}
+
+.projects {
+    background-color: #151E27;
+    border-radius: 13px;
+    color: #fff;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.projects .bruh {
+    font-size: 23px;
+    font-family: Sahel;
+    padding-right: 100px;
+}
+
+.projects .proj {
+    background-color: #303e4d;
+    border-radius: 20px;
+}
+
+.proj .header {
+    padding-right: 40px;
+    font-size: 20px;
+}
+
+.proj p {
+    padding-right: 5px;
+}
+
+.proj a {
+    background-color: antiquewhite;
+    color: black;
+    margin-right: 100px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.about {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    
+}
